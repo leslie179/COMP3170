@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.display-music-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.artist {
+    display: flex;
+    background-color: rgb(220,220,220);
+    padding: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.artist-image {
+    width: 200px;
+    margin-right: 1rem;
+}
+
+.artist-info {
+    display: flex;
+    flex-direction: column;
+}
